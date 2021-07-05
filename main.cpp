@@ -7,7 +7,8 @@ const int c2 = 0;
 
 class Test;
 
-int main() {
+int main()
+{
     using namespace std;
     cout << "Hello, World!" << std::endl;
     int a = 0;
@@ -36,38 +37,40 @@ int main() {
 //    cin.get();//读取一行
 //
 //
-    cout<<endl;
+    cout << endl;
     string st1 = "st1";
-    cout<<st1<<endl;
+    cout << st1 << endl;
 
-    struct sss{
+    struct sss
+    {
         int a;
-        string  b;
+        string b;
     };
 
-    sss s ;
-    s.a=1;
-    s.b="a";
-    cout<<s.a<<s.b<<endl;
+    sss s;
+    s.a = 1;
+    s.b = "a";
+    cout << s.a << s.b << endl;
 
-    cout<<&s<<endl;
+    cout << &s << endl;
 
     int a122313;
     a122313 = 0;
-    int&r = a122313;
-    cout<<r<<endl;
+    int &r = a122313;
+    cout << r << endl;
 
     time_t now = time(nullptr);
-    char* dt = ctime(&now);
+    char *dt = ctime(&now);
     tm *gmtm = gmtime(&now);
     dt = asctime(gmtm);
-    cout<<dt<<endl<<dt<<endl;
+    cout << dt << endl << dt << endl;
 
-    Test* test1 = new Test(1,1);
+    Test *test1 = new Test(1, 1);
 
     return 0;
 }
 
-int testA() {
+int testA()
+{
     return 0;
 }
