@@ -65,9 +65,6 @@ int main()
     dt = asctime(gmtm);
     cout << dt << endl << dt << endl;
 
-
-
-
     return 0;
 }
 

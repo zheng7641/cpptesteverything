@@ -5,22 +5,18 @@ using namespace std;
 class Test
 {
 
-private:
+public:
     int a;
     int b;
-
-public:
     void setA(int aa)
     {
         a = aa;
     }
 
-    Test(int ab){
-        a = ab;
+    Test(){
+        a = 1;
+        b = 2;
     }
 
-    ~Test()
-    {
 
-    }
 };
