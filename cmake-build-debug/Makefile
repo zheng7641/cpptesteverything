@@ -142,6 +142,33 @@ cpptesteverything/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptesteverything.dir/build.make CMakeFiles/cpptesteverything.dir/build
 .PHONY : cpptesteverything/fast
 
+Test.o: Test.cpp.o
+
+.PHONY : Test.o
+
+# target to build an object file
+Test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptesteverything.dir/build.make CMakeFiles/cpptesteverything.dir/Test.cpp.o
+.PHONY : Test.cpp.o
+
+Test.i: Test.cpp.i
+
+.PHONY : Test.i
+
+# target to preprocess a source file
+Test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptesteverything.dir/build.make CMakeFiles/cpptesteverything.dir/Test.cpp.i
+.PHONY : Test.cpp.i
+
+Test.s: Test.cpp.s
+
+.PHONY : Test.s
+
+# target to generate assembly for a file
+Test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptesteverything.dir/build.make CMakeFiles/cpptesteverything.dir/Test.cpp.s
+.PHONY : Test.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -178,6 +205,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cpptesteverything"
+	@echo "... Test.o"
+	@echo "... Test.i"
+	@echo "... Test.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

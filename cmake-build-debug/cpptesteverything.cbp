@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/zct/Documents/cpp_workspace_20210630/cpptesteverything/Test.cpp">
+			<Option target="cpptesteverything"/>
+		</Unit>
 		<Unit filename="/Users/zct/Documents/cpp_workspace_20210630/cpptesteverything/main.cpp">
 			<Option target="cpptesteverything"/>
 		</Unit>

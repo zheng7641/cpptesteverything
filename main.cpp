@@ -5,6 +5,8 @@ int testA();
 #define aa 0;
 const int c2 = 0;
 
+class Test;
+
 int main() {
     using namespace std;
     cout << "Hello, World!" << std::endl;
@@ -37,6 +39,32 @@ int main() {
     cout<<endl;
     string st1 = "st1";
     cout<<st1<<endl;
+
+    struct sss{
+        int a;
+        string  b;
+    };
+
+    sss s ;
+    s.a=1;
+    s.b="a";
+    cout<<s.a<<s.b<<endl;
+
+    cout<<&s<<endl;
+
+    int a122313;
+    a122313 = 0;
+    int&r = a122313;
+    cout<<r<<endl;
+
+    time_t now = time(nullptr);
+    char* dt = ctime(&now);
+    tm *gmtm = gmtime(&now);
+    dt = asctime(gmtm);
+    cout<<dt<<endl<<dt<<endl;
+
+    Test* test1 = new Test(1,1);
+
     return 0;
 }
 

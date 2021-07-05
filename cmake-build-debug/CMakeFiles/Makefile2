@@ -93,12 +93,12 @@ clean: CMakeFiles/cpptesteverything.dir/clean
 CMakeFiles/cpptesteverything.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptesteverything.dir/build.make CMakeFiles/cpptesteverything.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptesteverything.dir/build.make CMakeFiles/cpptesteverything.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zct/Documents/cpp_workspace_20210630/cpptesteverything/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target cpptesteverything"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zct/Documents/cpp_workspace_20210630/cpptesteverything/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target cpptesteverything"
 .PHONY : CMakeFiles/cpptesteverything.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cpptesteverything.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zct/Documents/cpp_workspace_20210630/cpptesteverything/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zct/Documents/cpp_workspace_20210630/cpptesteverything/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cpptesteverything.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zct/Documents/cpp_workspace_20210630/cpptesteverything/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/cpptesteverything.dir/rule

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/cpptesteverything.dir/Test.cpp.o"
   "CMakeFiles/cpptesteverything.dir/main.cpp.o"
   "cpptesteverything"
   "cpptesteverything.pdb"
