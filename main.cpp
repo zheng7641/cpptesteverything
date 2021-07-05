@@ -65,7 +65,8 @@ int main()
     dt = asctime(gmtm);
     cout << dt << endl << dt << endl;
 
-    Test *test1 = new Test(1, 1);
+
+
 
     return 0;
 }

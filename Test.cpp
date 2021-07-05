@@ -1,4 +1,3 @@
-
 #include <iostream>
 
 using namespace std;
@@ -6,19 +5,18 @@ using namespace std;
 class Test
 {
 
-public:
+private:
     int a;
     int b;
 
-    Test(int a, int b)
+public:
+    void setA(int aa)
     {
-        a = a;
-        b = b;
+        a = aa;
     }
 
-    void set(int a)
-    {
-        a = a;
+    Test(int ab){
+        a = ab;
     }
 
     ~Test()
